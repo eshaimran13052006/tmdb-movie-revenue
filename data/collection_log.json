@@ -1,0 +1,100 @@
+{
+  "collection_started": "2026-11-18T01:14:16",
+  "collection_finished": "2026-11-18T01:14:45",
+  "api": "TMDB v3",
+  "base_url": "https://api.themoviedb.org/3",
+  "endpoints": [
+    "/discover/movie",
+    "/movie/{id}?append_to_response=credits"
+  ],
+  "date_filter": "primary_release_date 2016-01-01 to 2026-12-31 (one calendar year per query)",
+  "sort_by": "vote_count.desc",
+  "include_adult": false,
+  "language": "en-US",
+  "target_per_year": 100,
+  "pagination": "20 results/page, pages fetched until target reached",
+  "per_year": [
+    {
+      "year": 2016,
+      "api_total_results": 20001,
+      "api_total_pages": 1001,
+      "pages_fetched": 5,
+      "ids_collected": 100
+    },
+    {
+      "year": 2017,
+      "api_total_results": 20001,
+      "api_total_pages": 1001,
+      "pages_fetched": 5,
+      "ids_collected": 100
+    },
+    {
+      "year": 2018,
+      "api_total_results": 20001,
+      "api_total_pages": 1001,
+      "pages_fetched": 5,
+      "ids_collected": 100
+    },
+    {
+      "year": 2019,
+      "api_total_results": 20001,
+      "api_total_pages": 1001,
+      "pages_fetched": 5,
+      "ids_collected": 100
+    },
+    {
+      "year": 2020,
+      "api_total_results": 20001,
+      "api_total_pages": 1001,
+      "pages_fetched": 5,
+      "ids_collected": 100
+    },
+    {
+      "year": 2021,
+      "api_total_results": 20001,
+      "api_total_pages": 1001,
+      "pages_fetched": 5,
+      "ids_collected": 100
+    },
+    {
+      "year": 2022,
+      "api_total_results": 20001,
+      "api_total_pages": 1001,
+      "pages_fetched": 5,
+      "ids_collected": 100
+    },
+    {
+      "year": 2023,
+      "api_total_results": 20001,
+      "api_total_pages": 1001,
+      "pages_fetched": 5,
+      "ids_collected": 100
+    },
+    {
+      "year": 2024,
+      "api_total_results": 20001,
+      "api_total_pages": 1001,
+      "pages_fetched": 5,
+      "ids_collected": 100
+    },
+    {
+      "year": 2025,
+      "api_total_results": 20001,
+      "api_total_pages": 1001,
+      "pages_fetched": 5,
+      "ids_collected": 100
+    },
+    {
+      "year": 2026,
+      "api_total_results": 20001,
+      "api_total_pages": 1001,
+      "pages_fetched": 6,
+      "ids_collected": 100
+    }
+  ],
+  "total_unique_ids": 1100,
+  "details_failed": [],
+  "movie_ids_sha256": "1c7eb457a5cb9cc2e3855a8ed1085bd839ef6f762a09db11c494ee800531518d",
+  "python_requests_version": "2.34.2",
+  "pandas_version": "3.0.3"
+}
