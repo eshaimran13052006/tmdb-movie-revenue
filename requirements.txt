@@ -1,0 +1,9 @@
+pandas
+numpy
+scipy
+scikit-learn>=1.4
+matplotlib
+seaborn
+requests
+joblib
+jupyter

@@ -1,0 +1,53 @@
+{
+  "team_roll_numbers": [
+    "25L-3001",
+    "25L-0004"
+  ],
+  "SEED": 4,
+  "seed_rule": "last four digits of the lowest team roll number, used for every random_state",
+  "training_started": "2026-11-21T18:54:10",
+  "training_finished": "2026-11-21T18:55:46",
+  "train_size": 719,
+  "test_size": 180,
+  "target": "log1p(revenue)",
+  "n_features_final": 10,
+  "final_model": "GradientBoosting (tuned)",
+  "test_metrics": [
+    {
+      "model": "Ridge",
+      "test_MAE_$m": 134.574,
+      "test_MSE_$m2": 68283.781,
+      "test_RMSE_$m": 261.312,
+      "test_R2_$": 0.3344,
+      "test_R2_log": 0.4314,
+      "test_MAE_log": 0.9246
+    },
+    {
+      "model": "RandomForest",
+      "test_MAE_$m": 132.558,
+      "test_MSE_$m2": 59965.667,
+      "test_RMSE_$m": 244.879,
+      "test_R2_$": 0.4155,
+      "test_R2_log": 0.4117,
+      "test_MAE_log": 0.9665
+    },
+    {
+      "model": "GradientBoosting",
+      "test_MAE_$m": 134.192,
+      "test_MSE_$m2": 60925.491,
+      "test_RMSE_$m": 246.831,
+      "test_R2_$": 0.4061,
+      "test_R2_log": 0.4315,
+      "test_MAE_log": 0.9475
+    },
+    {
+      "model": "GradientBoosting (tuned)",
+      "test_MAE_$m": 139.508,
+      "test_MSE_$m2": 75999.982,
+      "test_RMSE_$m": 275.681,
+      "test_R2_$": 0.2592,
+      "test_R2_log": 0.4414,
+      "test_MAE_log": 0.939
+    }
+  ]
+}

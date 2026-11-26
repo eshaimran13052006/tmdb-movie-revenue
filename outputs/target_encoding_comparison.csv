@@ -1,0 +1,4 @@
+,n_model_columns,CV R2 mean,CV R2 std,test R2 (log),test MAE ($m)
+baseline: OHE grouped (no director),65.0,0.3917,0.0851,0.428,125.1106
++ one-hot director (min_frequency=10),66.0,0.3937,0.1029,0.429,127.1662
+"+ out-of-fold target encoding (director, primary_company)",67.0,0.4129,0.0916,0.4843,120.2241

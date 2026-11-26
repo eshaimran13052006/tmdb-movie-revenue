@@ -1,0 +1,7 @@
+,test R2 (log),test R2 ($)
+"final setup (log target, selected features)",0.4315,0.4061
+all features (no feature selection),0.428,0.4503
+raw $ target (no log transform),-1.6009,0.3591
+"Ridge, no log/capping/scaling/OHE",0.3865,-0.1701
+"Ridge, full preprocessing",0.4314,0.3344
+WITH leaky post-release votes/popularity (not allowed),0.4655,0.5935
